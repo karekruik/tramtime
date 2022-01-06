@@ -6,7 +6,7 @@
 
 
 
-## What does it? 
+## What does it do? 
 
 Displays the time and line number of the coming next two public transport at a certain stop and going to a certain destination by using Google Directions API and Google Cloud Functions API. 
 
