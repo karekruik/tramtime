@@ -38,16 +38,18 @@ def hello_world(request):
 
 
     if (step_num_transit == None):
-        seconds_to_second_tram = 1200 # if no data is found, set it to 1200 / 20 min, so device wakes up in 15 min 
+        seconds_to_second_tram = 1200 # if no data is found, set it to 1200 s  so device wakes up in 20 min 
     else:
         seconds_to_second_tram=time1_timestamp - int(datetime.now().timestamp()) # time1_timestamp is of the last processed tram request (2. tram).
     #so it subtracts the seconds of now from the last tram departure time to find the difference = how many seconds to go till the 2nd tram
     return (f"Now:{timenow()},{next_tram1},{second_tram},{seconds_to_second_tram}")
 
+
 def timenow():
     tz = pytz.timezone('Europe/Amsterdam')
     now = datetime.now(tz).strftime("%I:%M %p")
     return (now) 
+
 
 def next_tram(delay=0):
     global str_next_tram , time1_timestamp, step_num_transit
@@ -68,7 +70,7 @@ def next_tram(delay=0):
     data_json = json.loads(response.read())
     #print(data_json)
 
-    #--------find the correct step num of TRANSIT 
+    #find the correct step num of TRANSIT 
     #length of steps list
     steps_len = len(data_json.get("routes")[0].get("legs")[0].get("steps"))
 
