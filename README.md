@@ -60,4 +60,4 @@ Reset button for Wemos d1 mini
 * Wemos d1 wakes up and this loop restarts
 
 
-Foot note: I know it is overengineered solution but until I learn better, this was the shortest way for me. 
+Foot note: I know it is overengineered solution but until I learn better. 
