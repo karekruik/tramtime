@@ -12,17 +12,17 @@ Displays the time and line number of the coming next two public transport at a c
 
 ## Main Components
 
-Wemos d1 mini
+* Wemos d1 mini
 
-E-ink screen
+* E-ink screen
 
-18650 battery
+* 18650 battery
 
-TP4056 charger
+* TP4056 charger
 
-Step up converter
+* Step up converter
 
-3D printed enclosure
+* 3D printed enclosure
 
 
 ## Why Google Directions API?
@@ -35,38 +35,38 @@ Google Directions API delivers back a json file. It is really long and I cannot 
 
 ## What is included in this repository?
 
-Wemos d1 mini sketch (tested in Arduino IDE) 
+* Wemos d1 mini sketch (tested in Arduino IDE) 
 
-Python code for Google Functions API
+* Python code for Google Functions API
 
-STEP files for the enclosure (3D print) 
+* STEP and STL files for the enclosure (3D print) 
 
 ## Summary of the functions
 
 ### Hardware
-E-ink screen => Wemos d1 mini > step-up converter > TP4056 charger > 18650 battery
+* E-ink screen => Wemos d1 mini > step-up converter > TP4056 charger > 18650 battery
 
-USB micro port for charging the battery
+* USB micro port for charging the battery
 
-Reset button for Wemos d1 mini
+* Reset button for Wemos d1 mini
 
-Wemos D1 mini
+* Wemos D1 mini
 
 https://www.bitsandparts.nl/WeMos-D1-mini-ESP8266-WiFi-ontwikkelboard-p122268
 
-E-INK Screen : WaveShare 1.54" e-Paper Module 200x200
+* E-INK Screen : WaveShare 1.54" e-Paper Module 200x200
 
 https://www.robotshop.com/nl/en/154-e-paper-module-200x200.html
 
-TP4056 (second generation)
+* TP4056 (second generation)
 
 https://www.bitsandparts.nl/Oplader-voor-LiIon-LiPoly-batterijen-accus-MicroUSB-TP4056-p111752
 
-Step-up DC-DC converter (this component is not a must. I used it to get a longer run time)
+* Step-up DC-DC converter (this component is not a must. I used it to get a longer run time)
 
 https://www.tinytronics.nl/shop/en/power/voltage-converters/boost-(step-up)-converters/mini-dc-dc-5v-step-up-boost-converter-480ma
 
-Reset button (tall)
+* Reset button (tall)
 
 https://www.tinytronics.nl/shop/en/switches/manual-switches/pcb-switches/tactile-pushbutton-switch-momentary-4pin-6*6*9mm
 
