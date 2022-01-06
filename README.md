@@ -5,7 +5,8 @@
 ### IoT for displaying public transport times
 
 
-## What it does 
+
+## What does it? 
 
 Displays the time and line number of the coming next two public transport at a certain stop and going to a certain destination by using Google Directions API and Google Cloud Functions API. 
 
@@ -24,15 +25,15 @@ Step up converter
 3D printed enclosure
 
 
-## Why Google Directions API
+## Why Google Directions API?
 
 I originally wanted to use a local public transport API (9292.nl) but they turned out to be not free. So I signed up for Google Directions API which gives you a free credit and free request (under limit) every month. 
 
-## Why Google Functions API
+## Why Google Functions API?
 
 Google Directions API delivers back a json file. It is really long and I cannot parse it with Wemos d1 mini (insufficient RAM). Because I did not have a better dev board with higher RAM (e.g. ESP32) at the moment of developing this project, I went through with Google Functions API to parse this data. 
 
-## What is included in this repository
+## What is included in this repository?
 
 Wemos d1 mini sketch (tested in Arduino IDE) 
 
