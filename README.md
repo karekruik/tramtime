@@ -82,4 +82,4 @@ https://www.tinytronics.nl/shop/en/switches/manual-switches/pcb-switches/tactile
 * Wemos d1 wakes up and this loop restarts
 
 
-Foot note: I know it is overengineered solution but until I learn better. 
+Foot note: I know it is an overengineered solution until I learn to do better. 
